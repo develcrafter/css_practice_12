@@ -1,94 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>1st practice of 12th css homework project</title>
-    <link rel="stylesheet" href="pre_index.css">
-</head>
-<body>
-    <header class="header">
+    <link rel="stylesheet" href="pre_index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
         <h3 class="header__subtitle-group">
-            <span class="header__subtitle">Urban -</span>
-            <span class="header__subtitle">ThinkTank</span>
+          <span class="header__subtitle">Urban -</span>
+          <span class="header__subtitle">ThinkTank</span>
         </h3>
         <h1 class="header__title-group">
-            <span class="header__title">ETH</span>
-            <span class="header__title">Teaching</span>
+          <span class="header__title">ETH</span>
+          <span class="header__title">Teaching</span>
         </h1>
-    </header>
+      </header>
 
-    <main class="grid">
-        <section class="main__column left-column">
-            <article class="main__about">
-                <h4 class="about__title main__title">About</h4>
-                <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse sapiente ex molestiae quis magni a aperiam, repellat iusto sunt architecto praesentium repellendus odio hic libero accusantium perferendis. Eos, sapiente.</p>
-            </article>     
-            <article class="main__category">
-                <h4 class="category__title main__title">Categories</h4>
-                <ul class="category__list">
-                    <li class="category__item">All</li>
-                    <li class="category__item">Diploma</li>
-                    <li class="category__item">Design Studio</li>
-                    <li class="category__item">Elective Course</li>
-                    <li class="category__item">Lecture Course</li>
-                    <li class="category__item">Seminar week</li>
-                    <li class="category__item">Visiting Workshop</li>
-                </ul>
-            </article>
+      <main class="grid">
+        <aside class="main__column left-column">
+          <article class="main__about">
+            <h4 class="about__title main__title">About</h4>
+            <p class="about__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              esse sapiente ex molestiae quis magni a aperiam, repellat iusto
+              sunt architecto praesentium 
+            </p>
+          </article>
+          <article class="main__category">
+            <h4 class="category__title main__title">Categories</h4>
+            <ul class="category__list">
+              <li class="category__item item--selected">All</li>
+              <li class="category__item">Diploma</li>
+              <li class="category__item">Design Studio</li>
+              <li class="category__item">Elective Course</li>
+              <li class="category__item">Lecture Course</li>
+              <li class="category__item">Seminar week</li>
+              <li class="category__item">Visiting Workshop</li>
+            </ul>
+          </article>
+        </aside>
 
-        </section>
         <section class="main__column right-column">
-            <div class="right__row">
-                <h4 class="project__title">Projects</h4>
+          <div class="right__row">
+              <h4 class="project__title main__title">Projects</h4>
             </div>
-            <div class="right__row right__grid">
+          <div class="right__row right__grid">
 
-                <section class="project__column">
-                    <article class="project__article">
-                        <img src="#" alt="" class="project__img">
-                        <div class="project__article-title-group">
-                            <h5 class="article__title">Action! On the Real City</h5>
-                            <small class="article__subtitle">Nayeon</small>
+            <section class="project__column first-column">
+              <article class="project__article">
+                <img src="https://picsum.photos/220/380/?random
+                " alt="" class="project__img" />
+                <div class="project__article-title-group">
+                  <h4 class="article__title">Action! On the Real City</h4>
+                  <small class="article__subtitle">Nayeon</small>
+                </div>
+                <div class="project__info">
+                  <span class="project__date">Spring 15</span>
+                  <span class="project__place">ETH Zurich, ONA € 34</span>
+                </div>
+                <p class="project__content">
+                  Lorem, ipsum dolor sit amet consectetur  
+                </p>
+                <div class="article__icon">
+                    2
+                </div>
+              </article>
+            </section>
+
+            <section class="project__column second-column">
+              <article class="project__article">
+                <img src="https://picsum.photos/220/380/?random" alt="" class="project__img" />
+                <div class="project__article-title-group">
+                  <h4 class="article__title">Open Village</h4>
+                  <small class="article__subtitle">Original Studio</small>
+                </div>
+                <div class="project__info">
+                  <span class="project__date">Spring 15</span>
+                  <span class="project__place">ETH Zurich, ONA</span>
+                </div>
+                <p class="project__content">
+                   amet hic saepe obcaecati quasi culpa
+                  asperiores molestias eaque corporis 
+                </p>
+                <div class="article__icon">
+                        1
+                    </div>
+              </article>
+            </section>
+
+            <section class="project__column third-column">
+              <article class="project__article">
+                <img src="https://picsum.photos/220/380/?random" alt="" class="project__img" />
+                <div class="project__article-title-group">
+                  <h4 class="article__title">Producer & Consumer</h4>
+                  <small class="article__subtitle">Jihyo</small>
+                </div>
+                <div class="project__info">
+                  <span class="project__date">Fall 15</span>
+                  <span class="project__place">Bexco, Busan</span>
+                </div>
+                <p class="project__content">October 17-25</p>
+                <div class="article__icon">
+                        3
+                    </div>
+              </article>
+              <article class="project__article">
+                    <img src="https://picsum.photos/220/380/?random" alt="" class="project__img" />
+                    <div class="project__article-title-group">
+                      <h4 class="article__title">Producer & Consumer</h4>
+                      <small class="article__subtitle">Jihyo</small>
+                    </div>
+                    <div class="project__info">
+                      <span class="project__date">Fall 15</span>
+                      <span class="project__place">Bexco, Busan</span>
+                    </div>
+                    <p class="project__content">October 17-25</p>
+                    <div class="article__icon">
+                            3
                         </div>
-                        <div class="project__info">
-                            <span class="project__date">Spring 15</span>
-                            <span class="project__place">ETH Zurich, ONA € 34</span></div>
-                        <p class="project__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora facere dolorem similique consequatur porro fuga nam voluptas atque! Laudantium aut, suscipit voluptates aliquam id quibusdam delectus ad dicta atque!</p>
-                    </article>
-                </section>
-
-                <section class="project__column">
-                    <article class="project__article">
-                        <img src="#" alt="" class="project__img">
-                        <div class="project__article-title-group">
-                            <h5 class="article__title">Open Village</h5>
-                            <small class="article__subtitle">Original Studio</small>
-                        </div>
-                        <div class="project__info">
-                            <span class="project__date">Spring 15</span>
-                            <span class="project__place">ETH Zurich, ONA</span></div>
-                        <p class="project__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt amet hic saepe obcaecati quasi culpa asperiores molestias eaque corporis tenetur possimus eum dolor optio non alias porro, quas quos.</p>
-                    </article>
-                </section>
-
-                <section class="project__column">
-                    <article class="project__article">
-                        <img src="#" alt="" class="project__img">
-                        <div class="project__article-title-group">
-                            <h5 class="article__title">Producer & Consumer</h5>
-                            <small class="article__subtitle">Jihyo</small>
-                        </div>
-                        <div class="project__info">
-                            <span class="project__date">Fall 15</span>
-                            <span class="project__place">Bexco, Busan</span></div>
-                        <p class="project__content">October 17-25</p>
-                    </article>
-                </section>
-
-            </div>
+                  </article>
+            </section>
+          </div>
         </section>
-    </main>
-</body>
+      </main>
+    </div>
+    <div class="closer">
+        <span class="arrow"><</span>
+    </div>
+  </body>
 </html>
