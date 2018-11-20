@@ -1,2 +1,3 @@
 # css_practice_12
-12th homework project for css practice
+
+12th css practice project from Nomad Coder.
